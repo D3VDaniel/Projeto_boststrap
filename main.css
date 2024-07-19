@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    transition: 0.3s;
+}
+
+header {
+    z-index: 99;
+}
+
+nav {
+    padding: 10px;
+    margin-left: 10%;
+    text-align: start;
+    position: relative;
+    z-index: 99;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px 10px;
+    color: rgb(11, 11, 77);
+    font-weight: bold;
+    font-size: 22px;
+}
+
+nav a:hover {
+    font-size: 24px;
+    cursor: pointer;
+    color: aliceblue;
+    
+}
+
+.container {
+    width: 100vw;
+}
+
+.carousel-indicators {
+
+}
+
+.carousel-inner {
+    top: -60px; 
+    overflow: hidden;
+    border-radius: 0 0 12px 12px;
+}
+
+.carousel-inner img {
+    width: 100vw;
+    height: 100vh;
+}
+
+.carousel-item {
+    position: ;
+}
+
+.coluna {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.footer {
+    display: flex;
+    margin-bottom: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 2px 0 0;
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        display: block;
+        max-width: 100%;
+    }
+
+    nav {
+        margin-left: 10%;
+        padding: 10px;
+        text-align: start;
+        position: relative;
+        z-index: 99;
+    
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: inherit;
+        padding: 10px 10px;
+        color: rgb(11, 11, 77);
+        font-weight: bold;
+        font-size: 16px;
+    }
+    
+    nav a:hover {
+        font-size: 18px;
+        cursor: pointer;
+        color: aliceblue;
+        
+    }
+
+    .carousel {
+        height: 100vh;
+    }
+
+    .carousel-inner {
+        height: auto;
+    }
+
+    .linha {
+        display: block;
+    }
+
+    .coluna {
+        background-color: red;
+        display: grid;
+        grid-template-columns: 100%;
+        padding: 10px;
+        font-size: 8px;
+        margin-top: 10px;
+    }
+
+    
+}
